@@ -1,0 +1,60 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 20/10/2020 18:00
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-reloj:before { content: "\f100"; }
+.flaticon-calendario:before { content: "\f101"; }
+.flaticon-calendario-con-cuadrados:before { content: "\f102"; }
+.flaticon-huesped:before { content: "\f103"; }
+.flaticon-reloj-1:before { content: "\f104"; }
+.flaticon-hora:before { content: "\f105"; }
+.flaticon-reloj-2:before { content: "\f106"; }
+.flaticon-ganador:before { content: "\f107"; }
+.flaticon-certificado-1:before { content: "\f108"; }
+.flaticon-certificacion:before { content: "\f109"; }
+    
+    $font-Flaticon-reloj: "\f100";
+    $font-Flaticon-calendario: "\f101";
+    $font-Flaticon-calendario-con-cuadrados: "\f102";
+    $font-Flaticon-huesped: "\f103";
+    $font-Flaticon-reloj-1: "\f104";
+    $font-Flaticon-hora: "\f105";
+    $font-Flaticon-reloj-2: "\f106";
+    $font-Flaticon-ganador: "\f107";
+    $font-Flaticon-certificado-1: "\f108";
+    $font-Flaticon-certificacion: "\f109";
